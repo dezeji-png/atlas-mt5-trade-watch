@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "atlas_mt5_trade_watch": {
+      "type": "http",
+      "url": "https://atlas-mt5-demo-relay.atlas-mt5-demo.workers.dev/public/mcp"
+    }
+  }
+}
