@@ -1,0 +1,22 @@
+{
+  "name": "atlas-mt5-trade-watch",
+  "version": "1.0.0",
+  "description": "Read-only XAUUSD demo feed for the Atlas Trade Watch.",
+  "author": {
+    "name": "Atlas"
+  },
+  "interface": {
+    "displayName": "Atlas MT5 Trade Watch",
+    "shortDescription": "Read fresh XAUUSD demo quotes and completed candles.",
+    "longDescription": "Connects to the Atlas MT5 demo relay for read-only feed status, XAUUSD quotes, contract details and completed candles. It cannot access account balances, positions, orders, history or trading actions.",
+    "developerName": "Atlas",
+    "category": "Finance",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Check whether my XAUUSD demo feed is fresh.",
+      "Read the latest completed XAUUSD M5 candles."
+    ],
+    "brandColor": "#D4AF37"
+  },
+  "mcpServers": "./.mcp.json"
+}
