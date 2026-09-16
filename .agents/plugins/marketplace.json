@@ -1,0 +1,20 @@
+{
+  "name": "atlas-mt5-private",
+  "interface": {
+    "displayName": "Atlas MT5 Private"
+  },
+  "plugins": [
+    {
+      "name": "atlas-mt5-trade-watch",
+      "source": {
+        "source": "local",
+        "path": "./plugins/atlas-mt5-trade-watch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}
